@@ -1,0 +1,59 @@
+.loginPage-container {
+    .header {
+        background-color: blue;
+        height: 10vh;
+        width: 100%;
+    }
+
+    .footer {
+        background-color: gray;
+        height: 20vh;
+        width: 100%;
+        bottom: 0px;
+        position: absolute;
+    }
+
+    .login-content {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 25%;
+
+        .username {
+            width: 100%;
+            margin: 10px 0px;
+
+            .username-textField {
+                width: 100%;
+            }
+        }
+
+        .password {
+            width: 100%;
+            margin: 10px 0px;
+
+            .password-textField {
+                width: 100%;
+            }
+        }
+
+        .login-button-div {
+            text-align: end;
+            margin-left: -5px;
+            .login-button {
+                width: 50%;
+                margin: 10px 0px;
+                background-color: rgb(189, 40, 65);
+                color: white;
+            }
+
+            .MuiButton-root {
+                text-transform: none; //material ui button makes the font all uppercase so this for making it as in the component
+            }
+        }
+
+        // .MuiTextField-root {
+        //     width: 30%;
+        // }
+    }
+}
